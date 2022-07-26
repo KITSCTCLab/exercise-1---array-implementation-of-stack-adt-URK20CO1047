@@ -25,8 +25,8 @@ class Stack:
             self.top -=1
 
     def status():
-        size = int(input())
-        queries = int(input())
+        for element in self.items:
+            print(element)
         
             
 # Do not change the following code
