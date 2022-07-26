@@ -24,19 +24,20 @@ class Stack:
             del self.items[self.top]
             self.top -=1
 
-    def status(self):
+    def status():
         size = int(input())
         queries = int(input())
-        while True:
+        on = Stack(size)
+        for t in range(queries)
         
             c = int(input())
         
             if c == 1:
-                d = int(input())
-                self.items.append(d)
+                d = input()
+                ob.items.append(d)
             elif c== 2:
-                self.items.pop()
-            
+                ob.items.pop()
+         print(ob.items)     
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
 stack = Stack(size)
