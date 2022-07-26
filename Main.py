@@ -28,7 +28,7 @@ class Stack:
         size = int(input())
         queries = int(input())
         on = Stack(size)
-        for t in range(queries)
+        for t in range(queries):
         
             c = int(input())
         
