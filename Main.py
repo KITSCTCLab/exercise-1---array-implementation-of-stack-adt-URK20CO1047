@@ -37,7 +37,7 @@ class Stack:
                 ob.items.append(d)
             elif c== 2:
                 ob.items.pop()
-         print(ob.items)     
+         #print(ob.items)     
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
 stack = Stack(size)
