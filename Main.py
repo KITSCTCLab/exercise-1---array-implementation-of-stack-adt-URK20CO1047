@@ -26,7 +26,7 @@ class Stack:
         if not self.is_empty():
            self.items.pop()
 
-    def status():
+    def status(self):
         for element in self.items:
             print(element)
         
