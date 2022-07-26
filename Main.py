@@ -9,7 +9,7 @@ class Stack:
         
         return self.top == -1
     def is_full(self):
-       reyurn self.top == self.size-1
+       return self.top == self.size-1
     def push(self, data):
         if self.is_full():
             print("Stack Overflow")
