@@ -27,17 +27,8 @@ class Stack:
     def status():
         size = int(input())
         queries = int(input())
-        ob = Stack(size)
-        for t in range(queries):
         
-            c = int(input())
-        
-            if c == 1:
-                d = input()
-                ob.items.append(d)
-            elif c== 2:
-                ob.items.pop()
-         #print(ob.items)     
+            
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
 stack = Stack(size)
@@ -47,4 +38,4 @@ for line in range(queries):
         stack.push(values[1])
     elif values[0] == 2:
         stack.pop()
-Stack.status()
+stack.status()
