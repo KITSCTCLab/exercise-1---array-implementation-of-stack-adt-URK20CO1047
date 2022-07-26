@@ -12,31 +12,31 @@ class Stack:
        return self.top == self.size-1
     def push(self, data):
         if self.is_full():
-            print("Stack Overflow")
+            return
         else:
             self.top += 1
             self.items.append(data)
 
     def pop(self):
         if self.is_empty():
-           print("Stack Underflow")
+           return
         else:
             del self.items[self.top]
             self.top -=1
 
     def status(self):
-       
+        size = int(input(+" "))
+        queries = int(input())
         while True:
         
-            c = int(input("1)Push\n2)pop\n3)Exit\nEnter your choice: "))
+            c = int(input())
         
             if c == 1:
-                d = input("Enter the data to push: ")
+                d = int(input())
                 self.items.append(d)
             elif c== 2:
                 self.items.pop()
-            elif c== 3:
-                break
+            
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
 stack = Stack(size)
