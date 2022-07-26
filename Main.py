@@ -25,7 +25,7 @@ class Stack:
             self.top -=1
 
     def status(self):
-        size = int(input(+" "))
+        size = int(input())
         queries = int(input())
         while True:
         
