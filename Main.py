@@ -26,17 +26,17 @@ class Stack:
 
     def status(self):
        
-    while True:
+        while True:
         
-        c = int(input("1)Push\n2)pop\n3)Exit\nEnter your choice: "))
+            c = int(input("1)Push\n2)pop\n3)Exit\nEnter your choice: "))
         
-        if c == 1:
-            d = input("Enter the data to push: ")
-            self.items.append(d)
-        elif c== 2:
-            self.items.pop()
-        elif c== 3:
-            break
+            if c == 1:
+                d = input("Enter the data to push: ")
+                self.items.append(d)
+            elif c== 2:
+                self.items.pop()
+            elif c== 3:
+                break
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
 stack = Stack(size)
