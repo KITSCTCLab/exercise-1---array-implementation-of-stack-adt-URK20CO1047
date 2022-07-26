@@ -27,7 +27,7 @@ class Stack:
     def status():
         size = int(input())
         queries = int(input())
-        on = Stack(size)
+        ob = Stack(size)
         for t in range(queries):
         
             c = int(input())
