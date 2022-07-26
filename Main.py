@@ -15,7 +15,7 @@ class Stack:
             print("Stack Overflow")
         else:
             self.top += 1
-            self.items[self.top] = data
+            self.items.append(data)
 
     def pop(self):
         if self.is_empty():
